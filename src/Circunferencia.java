@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Arrays;
 
 public class Circunferencia extends FiguraGeometrica2D {
     private Ponto2D centro;
@@ -7,7 +8,7 @@ public class Circunferencia extends FiguraGeometrica2D {
 
     // Construtor
     public Circunferencia(Ponto2D ponto, float raio) {
-        super(new ArrayList<>(List.of(ponto)));
+        super(new ArrayList<>(Arrays.asList(ponto)));
         centro = ponto;
         this.raio = raio;
     }

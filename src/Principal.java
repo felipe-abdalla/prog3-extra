@@ -121,8 +121,5 @@ public class Principal implements GLEventListener {
 
         //FiguraGeometrica2D circunferencia = new Circunferencia(centroCircunferencia, raioCircunferencia);
         //FiguraGeometrica2D retangulo = new Retangulo(pontos);
-
-        //System.out.println("Área da circunferência: " + circunferencia.calcularArea());
-        //System.out.println("Área do retângulo: " + retangulo.calcularArea());
     
 }
