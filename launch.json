@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Principal",
+            "request": "launch",
+            "mainClass": "Principal",
+            "vmArgs": "-Djava.library.path=C:/Users/felip/OneDrive/Área de Trabalho/Prog III/Trabalho Extra/lib",
+            "classpath": [
+                "./bin",
+                "./jar/jogl-all.jar",
+                "./jar/gluegen-rt.jar"
+            ]
+        }
+    ]
+}
