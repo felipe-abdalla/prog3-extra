@@ -27,6 +27,23 @@ public class Retangulo extends FiguraGeometrica2D {
             pontoD = temp;
         } 
     }
+    
+    // Getters
+    public Ponto2D getPontoA() {
+        return pontoA;
+    }
+
+    public Ponto2D getPontoB() {
+        return pontoB;
+    }
+
+    public Ponto2D getPontoC() {
+        return pontoC;
+    }
+
+    public Ponto2D getPontoD() {
+        return pontoD;
+    }
 
     @Override
     public float calcularArea() {

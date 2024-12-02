@@ -13,6 +13,15 @@ public class Circunferencia extends FiguraGeometrica2D {
         this.raio = raio;
     }
 
+    // Getters
+    public float getRaio() {
+        return raio;
+    }
+
+    public Ponto2D getCentro() {
+        return centro;
+    }
+
     // Calculo da area da circunferencia
     @Override
     public float calcularArea() {
