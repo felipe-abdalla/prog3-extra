@@ -1,0 +1,9 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "gluegen-rt.jar",
+        "gluegen-rt-natives-windows-amd64.jar",
+        "jogl-all.jar",
+        "jogl-all-natives-windows-amd64.jar"
+    ]
+}
