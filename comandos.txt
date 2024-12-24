@@ -1,0 +1,5 @@
+COMPILAÇÃO:
+javac -cp "jogl-all.jar;gluegen-rt.jar" *.java
+ 
+EXECUÇÃO:
+java --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.desktop/sun.java2d=ALL-UNNAMED --add-opens java.desktop/sun.awt=ALL-UNNAMED --add-opens java.desktop/sun.awt.windows=ALL-UNNAME -cp ".;gluegen-rt.jar;gluegen-rt-natives-windows-amd64.jar;jogl-all.jar;jogl-all-natives-windows-amd64.jar" Principal
